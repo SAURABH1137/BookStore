@@ -23,6 +23,10 @@ HOME
 LOGIN
 ![image](https://user-images.githubusercontent.com/111139558/184533743-35d6060c-3ca6-46c0-8761-e3fa6c698446.png)
 
+BOOKS DETAILS
+![1](https://user-images.githubusercontent.com/111139558/184535427-8fd60225-08c7-4b37-8ae5-73672f73ff37.png)
+
+
 PROFILE
 ![image](https://user-images.githubusercontent.com/111139558/184533838-b96384ed-d177-4641-bc25-13f586c75f52.png)
 
