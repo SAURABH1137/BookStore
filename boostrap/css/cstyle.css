@@ -1,0 +1,179 @@
+.rg-left{
+  float: left;
+}
+.rg-deco{
+  text-decoration: none;
+}
+.rg-right{
+  float: right;
+}
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-online {
+    height: 8px;
+    width: 8px;
+    background-color: rgb(25, 207, 41);
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+:is(.chat-box)::-webkit-scrollbar{
+  width: 0px;
+}
+
+.chat-box{
+  position: relative;
+  min-height: 630px;
+  max-height: 630px;
+  overflow-y: auto;
+}
+
+:is(.chat-follow)::-webkit-scrollbar{
+  width: 0px;
+}
+.chat-follow{
+  position: relative;
+  min-height: 800px;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.img-radius{
+  --background: #F0F8FF;
+	--primary: #FFF8DC;
+	--secondary: #F0FFFF;
+	--third: #FFF8DC;
+}
+
+.img-radius{
+    background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+    animation: morph 8s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+    z-index: 5;
+}
+
+@keyframes morph {
+ 0% {
+     border-radius:  12% 19% 18% 17% / 15% 16% 19% 21%;
+     background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+     height: 900px;
+     width: auto;
+ } 
+ 
+ 50% {
+     border-radius: 29% 34% 31% 29% / 30% 30% 34% 35% ;
+     background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+     height: 900px;
+     width: auto;
+ }
+ 
+ 100% {
+   border-radius:  12% 19% 18% 17% / 15% 16% 19% 21% ;
+   background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+   height: 900px;
+   width:auto;
+ } 
+}
+
+
+.msg-send-friend{
+  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: phas  8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  z-index: 5;
+}
+
+@keyframes phas {
+0% {
+   border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+   background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+} 
+
+50% {
+   border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+   background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+}
+
+100% {
+ border-radius: 0% 100% 0% 100% / 100% 0% 100% 0% ;
+ background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+} 
+}
+
+.msg-send-user{
+  background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+  animation: phas  8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  z-index: 5;
+}
+
+
+@keyframes phas {
+0% {
+   border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+   background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+} 
+
+50% {
+   border-radius: 0% 100% 0% 100% / 100% 0% 100% 0%;
+   background: linear-gradient(45deg, var(--third) 0%, var(--secondary) 100%);
+}
+
+100% {
+ border-radius: 0% 100% 0% 100% / 100% 0% 100% 0% ;
+ background: linear-gradient(45deg, var(--primary) 0%, var(--secondary) 100%);
+} 
+}
+
+.chat-box-scroll{
+  position: relative;
+  min-height: 320px;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+:is(.chat-box-scroll)::-webkit-scrollbar{
+  width: 0px;
+}
+
+.msg-send{
+  background: #F0F8FF;
+}
+
+.teraclass:before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4%;
+}
+.teraclass:hover:before{
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+}
+
+.teraclass1:before{
+  content: '';
+  position: absolute;
+  width: 2%;
+  height: 1%;
+  margin-top: 20px;
+}
+.teraclass1:hover:before{
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+}
+
+
+.followers-box-scroll{
+  position: relative;
+  min-height: 350px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+:is(.followers-box-scroll)::-webkit-scrollbar{
+  width: 0px;
+}
