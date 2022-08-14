@@ -18,19 +18,25 @@ BACKEND
 7. NODEMON
 
 1. HOME
+
 ![image](https://user-images.githubusercontent.com/111139558/184533733-8e0dd5d5-0dfc-4292-8f08-5d624d2d099b.png)
 
 2. LOGIN
+
 ![image](https://user-images.githubusercontent.com/111139558/184535526-62a560a2-572d-4754-acc2-2165af88be19.png)
 
 3. BOOKS DETAILS
+
 ![1](https://user-images.githubusercontent.com/111139558/184535427-8fd60225-08c7-4b37-8ae5-73672f73ff37.png)
 
 4. PROFILE
+
 ![image](https://user-images.githubusercontent.com/111139558/184533838-b96384ed-d177-4641-bc25-13f586c75f52.png)
 
 5. CART
+
 ![image](https://user-images.githubusercontent.com/111139558/184533869-47ea087b-e157-4aa0-ba14-66a7ce576257.png)
 
 6. PAYNOW
+
 ![image](https://user-images.githubusercontent.com/111139558/184533908-0cb192a9-572c-4ba4-a2df-9753b4f6a51f.png)
