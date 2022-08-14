@@ -17,7 +17,7 @@ BACKEND
 6. MULTER
 7. NODEMON
 
-1. HOME
+HOME
 
 ![image](https://user-images.githubusercontent.com/111139558/184533733-8e0dd5d5-0dfc-4292-8f08-5d624d2d099b.png)
 
